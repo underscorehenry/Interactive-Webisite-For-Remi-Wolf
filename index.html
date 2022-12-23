@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <title>Remi Wolf</title>
+</head>
+<body style="background-color: rgba(74, 0, 245, 0.986);">
+    <nav style="display: flex; justify-content: space-evenly ;">
+        <div id="first" onmouseover="hoverColorChange('first')" onclick="displayWords('innocenceText', 'humanCondition', 'lyrics')" style="background-color: white; border-radius: 20px; width: 200px;">
+            <p style="font-family: 'Permanent Marker'; color: rgb(48, 165, 120); text-align: center ;">Innocence</p>
+        </div>
+        <div id="second" onmouseover="hoverColorChange('second')" onclick="displayWords('humanCondition', 'innocenceText', 'lyrics')" style="background-color: white; border-radius: 20px; width: 200px;">
+            <p style="font-family: 'Permanent Marker'; color: rgb(155, 38, 190); text-align: center;">Human Condition</p>
+        </div>
+        <div id="third" onmouseover="hoverColorChange('third')" onclick="displayWords('lyrics', 'humanCondition', 'innocenceText')" style="background-color: white; border-radius: 20px; width: 200px;">
+            <p style="font-family: 'Permanent Marker'; color: rgb(173, 156, 0); text-align: center;">Lyrics</p>
+        </div>
+    </nav>
+        <div style="background-color: white; height: 450px; width: 300px; border-radius: 300px; position: absolute; left: 520px; top: 100px;">
+            <pre id="innocenceText" style="display: none; position:relative; top: 50px; left: -80px; font-family: 'Indie Flower', cursive; font-weight: bold; color: rgb(0, 167, 83); font-size: 20px;">                  
+                 Remi is one of the
+                 most talented 
+                 people on the planet.  
+                 The girl makes me feel like 
+                 I can still be a kid without 
+                 any of my innocence.
+            </pre>
+            <pre id="humanCondition" style="display: none; position:relative; top: 50px; left: -80px; font-family: 'Indie Flower', cursive; font-weight: bold; color: rgb(0, 167, 83); font-size: 20px;">                  
+                She may come off as just 
+                a pop artist.
+                But she understands 
+                the human condition pretty 
+                well.
+           </pre>
+           <pre id="lyrics" style="display: none; position:relative; top: 50px; left: -40px; font-family: 'Indie Flower', cursive; font-weight: bold; color: rgb(0, 167, 83); font-size: 20px;">                  
+            Her lyrics can sound like 
+            nonsense on the surface 
+            level, but you feel them.
+            Like she knows how to 
+            speak to your core soul.
+       </pre>
+            </div>
+    <div style="background-color: rgba(248, 248, 248); height: 450px; width: 300px; border-radius: 300px; position: absolute; left: 250px; top: 100px; background-image: url('st\,small\,507x507-pad\,600x600\,f8f8f8.jpg'); background-size:contain; background-repeat: no-repeat; background-position: center;">
+        <svg viewBox="0 0 500 600" style="position: absolute; top: 10px;">
+            <path id="curve" fill="transparent" d="M73.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97" />
+            <text width="500">
+              <textPath xlink:href="#curve" style="font-size: 55px; fill: rgba(56, 3, 247, 0.952);">
+                Artist Of The Year
+              </textPath>
+            </text>
+          </svg>
+    </div>
+    <div style="background-color: blue; height: 450px; width: 300px; border-radius: 300px; position: absolute; left: 800px; top: 100px;">
+    <img src="remi-wolf.avif" style="height:450px; width: 300px; object-fit: cover; border-radius: 300px;"></div>
+    <p style="position: absolute; top: 600px; left: 580px; font-family: Georgia, 'Times New Roman', Times, serif; color: aliceblue;">Designed By underscorehenry</p>
+    <script src="script.js"></script>
+</body>
+</html>
